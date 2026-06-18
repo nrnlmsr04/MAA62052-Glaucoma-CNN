@@ -26,7 +26,7 @@ The primary objective is to maximize diagnostic performance while minimizing cli
 ### Institution
 
 **Bachelor of Actuarial Science**
-Faculty of Mathematics and Natural Sciences
+ Faculty of Sciences, Technology, and Mathematics 
 **Universitas Brawijaya**
 Malang, Indonesia
 
