@@ -15,8 +15,6 @@ This repository contains the deep learning pipeline developed to detect Glaucoma
 ## ⚙️ Prerequisites & Dependencies
 The project is built using Python and the PyTorch framework. To run the code successfully, install the required dependencies using the following command:
 
-```bash
-pip install torch torchvision opencv-python pandas numpy matplotlib seaborn scikit-learn Pillow
 ## 📊 Final Performance Comparison (Held-Out Test Set)
 
 Our models were rigorously evaluated on a held-out test set partitioned using a strict **Patient-Level Split** to prevent any data leakage. To accommodate the inherent medical class imbalance (GON+ vs. GON-), classification thresholds were optimized to balance safety and precision. 
@@ -42,3 +40,7 @@ The experimental results across the three developed pipelines are summarized bel
 
 3. **Custom Quality-Aware vs. Heavy Transfer Learning:**
    While *EfficientNet-B0* leverages extensive pre-trained spatial hierarchies from millions of general images, our ablation study demonstrates that a meticulously designed, domain-specific *Quality-Aware Custom CNN* can achieve competitive, if not superior, clinical specificity on small-scale medical datasets without the heavy computational footprint.
+
+```bash
+pip install torch torchvision opencv-python pandas numpy matplotlib seaborn scikit-learn Pillow
+
