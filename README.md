@@ -208,18 +208,3 @@ making it suitable for computationally constrained clinical environments.
 └── requirements.txt
 ```
 
----
-
-# 📜 License
-
-This repository is intended for academic and research purposes only.
-
-Please comply with the licensing terms of the HYGD dataset when using or redistributing the data.
-
----
-
-# 👨‍💻 Authors
-
-Developed as part of a Deep Learning and Medical Image Analysis project focused on automated glaucoma screening using retinal fundus imaging.
-
-If you find this repository useful, please consider ⭐ starring the project.
